@@ -26,7 +26,6 @@ var allFeeds = [
  */
 function init() {
     // 加载我们定义的第一个源。
-    console.log("init");
     loadFeed(0);
 }
 
@@ -36,7 +35,6 @@ function init() {
  * 这个回调函数会在所有事情都成功完成之后被调用。
 */
  function loadFeed(id, cb) {
-    console.log("loadFeed");
      var feedUrl = allFeeds[id].url,
          feedName = allFeeds[id].name;
 
